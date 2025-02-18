@@ -1,0 +1,36 @@
+.roll-dice {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .dice-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 50px;
+  }
+  
+  .shaking {
+    animation: shake 0.3s infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(10deg); }
+    50% { transform: rotate(-10deg); }
+    75% { transform: rotate(10deg); }
+    100% { transform: rotate(0deg); }
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 22px;
+    cursor: pointer;
+    background-color: black;
+    color: aliceblue;
+  }
+
+  body {
+    background-color: lightyellow;
+  }
